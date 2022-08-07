@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arrays and Allert </title>
+</head>
+
+<body>
+    <h2>Javascript Array</h2>
+    <p id="demo"></p>
+    <script type="text/javascript">
+        //creating an array
+        const chocolates = ["cadburry", "M&M", "Snickers", "Ferrero rocher"];
+
+        let chocolate = chocolates[0]; //accessing an element from array
+        document.write(chocolate);
+
+        let length = chocolate.length; //Length property of an array
+        document.getElementById("demo").innerHTML = length;
+
+        for (let choco of chocolates) { //Loping array elements
+            alert(choco)
+        }
+    </script>
+
+</body>
+
+</html>

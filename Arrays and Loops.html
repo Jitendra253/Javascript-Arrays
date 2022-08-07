@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Arrays and Loops</title>
+</head>
+
+<body>
+    <h2>Javascript Array</h2>
+    <p id="demo"></p>
+    <script type="text/javascript">
+        const cars = ["BMW", "Audi", "Scoda", "Benz"];
+        let list = "<ul>";
+        //using forEach loop in array 
+        cars.forEach(item);
+        list += "</ul>"
+        document.getElementById("demo").innerHTML = list; //accessing array elements inside
+
+        function item(car) {
+            list += "<li>" + car + "</li>"
+        }
+    </script>
+
+</body>
+
+</html>
